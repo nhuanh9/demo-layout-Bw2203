@@ -11,6 +11,7 @@
             width: 100%;
             height: 150px;
         }
+
         .logo {
             width: 25%;
             height: 150px;
@@ -18,6 +19,7 @@
             float: left;
             /* float: hiển thị phần tử sang bên trái với width vừa đủ phần còn trống */
         }
+
         .banner {
             width: 75%;
             height: 150px;
@@ -25,57 +27,68 @@
             float: left;
             /* float: hiển thị phần tử sang bên trái với width vừa đủ phần còn trống */
         }
+
         .menu {
             width: 100%;
             height: 50px;
             background: blue;
         }
+
         .main {
             width: 100%;
             height: 650px;
         }
+
         .left {
             width: 20%;
             height: 650px;
             float: left;
         }
+
         .left-top {
             width: 100%;
             height: 300px;
             background: lightgray;
         }
+
         .left-bot {
             width: 100%;
             height: 350px;
             background: gray;
             float: left;
         }
+
         .mid {
             width: 60%;
             height: 650px;
             float: left;
         }
+
         .mid-top {
             width: 100%;
             height: 250px;
         }
+
         .slides {
             width: 65%;
             height: 250px;
             background: yellow;
             float: left;
         }
+
         .hot-news {
             width: 35%;
             height: 250px;
             background: gray;
             float: left;
         }
+
         .mid-bot {
             width: 100%;
             height: 400px;
             float: left;
         }
+
         .item {
             width: 31%;
             margin: 1%;
@@ -83,12 +96,14 @@
             background: orange;
             float: left;
         }
+
         .right {
             width: 20%;
             height: 650px;
             background: brown;
             float: left;
         }
+
         .bot {
             width: 100%;
             height: 50px;
@@ -99,25 +114,70 @@
             .slides {
                 width: 50%;
             }
+
             .hot-news {
                 width: 50%;
             }
+
             .item {
                 width: 48%;
             }
         }
 
+        @media only screen and (max-width: 750px) {
+            .right {
+                display: none;
+            }
+
+            .left {
+                width: 25%;
+            }
+
+            .mid {
+                width: 75%;
+            }
+        }
+
+        @media only screen and (max-width: 540px) {
+            .slides {
+                width: 100%;
+            }
+
+            .hot-news {
+                width: 100%;
+            }
+
+            .item {
+                width: 95%;
+            }
+        }
+
+        @media only screen and (max-width: 380px) {
+            .banner, .slides, .left-bot {
+                display: none;
+            }
+            .left {
+                height: 50px;
+            }
+            .left, .mid {
+                width: 100%;
+            }
+
+            .left-top {
+                height: 50px;
+            }
+        }
     </style>
 </head>
 
 <body>
-     <div class="top">
-         <div class="logo">Logo</div>
-         <div class="banner">Banner</div>
-     </div>
-     <div class="menu">
-     </div>
-     <div class="main">
+    <div class="top">
+        <div class="logo">Logo</div>
+        <div class="banner">Banner</div>
+    </div>
+    <div class="menu">
+    </div>
+    <div class="main">
         <div class="left">
             <div class="left-top">Left Top</div>
             <div class="left-bot">Left Bot</div>
@@ -138,7 +198,7 @@
         </div>
         <div class="right">Right</div>
     </div>
-     <!-- <div class="bot">Bot</div> -->
+    <!-- <div class="bot">Bot</div> -->
 </body>
 
 </html>
