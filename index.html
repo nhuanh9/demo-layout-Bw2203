@@ -53,7 +53,6 @@
         .mid {
             width: 60%;
             height: 650px;
-            background: green;
             float: left;
         }
         .mid-top {
@@ -75,7 +74,6 @@
         .mid-bot {
             width: 100%;
             height: 400px;
-            background: blue;
             float: left;
         }
         .item {
@@ -97,38 +95,50 @@
             background: red;
         }
 
+        @media only screen and (max-width: 1000px) {
+            .slides {
+                width: 50%;
+            }
+            .hot-news {
+                width: 50%;
+            }
+            .item {
+                width: 48%;
+            }
+        }
+
     </style>
 </head>
 
 <body>
      <div class="top">
-         <div class="logo"></div>
-         <div class="banner"></div>
+         <div class="logo">Logo</div>
+         <div class="banner">Banner</div>
      </div>
      <div class="menu">
      </div>
      <div class="main">
         <div class="left">
-            <div class="left-top"></div>
-            <div class="left-bot"></div>
+            <div class="left-top">Left Top</div>
+            <div class="left-bot">Left Bot</div>
         </div>
         <div class="mid">
             <div class="mid-top">
-                <div class="slides"></div>
-                <div class="hot-news"></div>
+                <div class="slides">Slides</div>
+                <div class="hot-news">Hot News</div>
             </div>
             <div class="mid-bot">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+                <div class="item">Item 1</div>
+                <div class="item">Item 2</div>
+                <div class="item">Item 3</div>
+                <div class="item">Item 4</div>
+                <div class="item">Item 5</div>
+                <div class="item">Item 6</div>
             </div>
         </div>
-        <div class="right"></div>
+        <div class="right">Right</div>
     </div>
-     <div class="bot"></div>
+     <!-- <div class="bot">Bot</div> -->
 </body>
 
 </html>
