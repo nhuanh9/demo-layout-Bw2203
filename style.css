@@ -1,0 +1,75 @@
+.header {
+    background: #222222;
+    width: 100%;
+    height: 100px;
+    color: #7c7d7e;
+}
+
+.nav {
+    width: 90%;
+    height: 100px;
+    float: left;
+}
+.nav-item {
+    width: 10%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    font-size: 26px;
+}
+.nav-item:hover {
+    background: black;
+    color: white;
+}
+.login {
+    width: 10%;
+    float: left;
+    font-size: 32px;
+    line-height: 100px;
+}
+.main {
+    background: #f1f1f1;
+    width: 100%;
+    height: 666px;
+}
+.main-l, .main-r {
+    background: #f1f1f1;
+    width: 20%;
+    float: left;
+    height: 636px;
+    padding-top: 30px;
+}
+.main-m {
+    background: white;
+    width: 60%;
+    float: left;
+    height: 666px;
+}
+.l-item a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+.r-item{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    margin-top: 10px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.footer {
+    background: #222222;
+    width: 100%;
+    height: 100px;
+}
