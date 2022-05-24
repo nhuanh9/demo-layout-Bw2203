@@ -89,4 +89,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="182" y="114" key="MergeDialog" timestamp="1653386584696">
+      <screen x="41" y="25" width="1639" height="1025" />
+    </state>
+    <state x="182" y="114" key="MergeDialog/41.25.1639.1025@41.25.1639.1025" timestamp="1653386584696" />
+    <state x="476" y="303" key="MultipleFileMergeDialog" timestamp="1653386584732">
+      <screen x="41" y="25" width="1639" height="1025" />
+    </state>
+    <state x="476" y="303" key="MultipleFileMergeDialog/41.25.1639.1025@41.25.1639.1025" timestamp="1653386584732" />
+    <state x="502" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1653386611581">
+      <screen x="41" y="25" width="1639" height="1025" />
+    </state>
+    <state x="502" y="252" width="670" height="676" key="search.everywhere.popup/41.25.1639.1025@41.25.1639.1025" timestamp="1653386611581" />
+  </component>
 </project>
